@@ -17,9 +17,9 @@ public class DistanceFromAverage {
 			i++;
 			total = total + arrayNums[i];
 		}
-
-		System.out.println("Total: " + total);
+		
 		avg = total / arrayNums.length;
+		System.out.println("Total: " + total);
 		System.out.println("Average: " + avg);
 
 	}
